@@ -1,0 +1,20 @@
+# INFO
+# i= the focus id you need not need to put "TAG_focus_" as it will be done automatically
+# p= focus prerequisit, do note it can only handle one prerequisit if there is no prerequisit, just put a "0" there and delete it yourself
+# g= focus icon, if you dont have gfx, put a placeholder there
+#
+# IMPORTANT
+# this script automatically puts "relative_position_id" as it is better than not having it and paradox agrees
+# as they use it, also it makes life easier for future devs who wants to rework or change or move some stuff
+# around to make it neater
+# for those of you who don't know what "relative_position_id =" is, what it does is that focuses locaiton 
+# would be based off the focus that you put in and off set it with the x = and y =
+#
+# FORMAT
+#
+# i=name_1
+# p=0
+# g=GFX_Focus_Meme_NGTGYU
+# i=name_2
+# p=name_1
+# g=GFX_Focus_Meme_NGTGYU

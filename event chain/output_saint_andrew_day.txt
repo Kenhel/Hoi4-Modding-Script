@@ -1,0 +1,171 @@
+#made by https://github.com/Kenhel and https://github.com/Syth-1
+country_event = {
+	id = SER_cukur_fountain_incident.1 #saint andrews day
+	title = SER_cukur_fountain_incident.1 #saint andrews day.t
+	desc = SER_cukur_fountain_incident.1 #saint andrews day.d
+	picture = lorem_ipsum
+
+		fire_only_once = yes
+
+		is_triggered_only = yes
+
+	option = {
+		name = SER_cukur_fountain_incident.1 #saint andrews day.a
+		ai_chance = {
+			factor = 0
+		}
+		country_event = {
+			id = SER_cukur_fountain_incident.2 #alliance of the liberals
+			days = 10
+		}
+	}
+}
+country_event = {
+	id = SER_cukur_fountain_incident.2 #alliance of the liberals
+	title = SER_cukur_fountain_incident.2 #alliance of the liberals.t
+	desc = SER_cukur_fountain_incident.2 #alliance of the liberals.d
+	picture = lorem_ipsum
+
+		fire_only_once = yes
+
+		is_triggered_only = yes
+
+	option = {
+		name = SER_cukur_fountain_incident.2 #alliance of the liberals.a
+		ai_chance = {
+			factor = 0
+		}
+		country_event = {
+			id = SER_cukur_fountain_incident.3 #idea of parlamentiarism
+			days = 5
+		}
+	}
+	option = {
+		name = SER_cukur_fountain_incident.2 #alliance of the liberals.b
+		ai_chance = {
+			factor = 0
+		}
+		country_event = {
+			id = SER_cukur_fountain_incident.6 #turmoil forms in liberal formation
+			days = 20
+		}
+	}
+}
+country_event = {
+	id = SER_cukur_fountain_incident.3 #idea of parlamentiarism
+	title = SER_cukur_fountain_incident.3 #idea of parlamentiarism.t
+	desc = SER_cukur_fountain_incident.3 #idea of parlamentiarism.d
+	picture = lorem_ipsum
+
+		fire_only_once = yes
+
+		is_triggered_only = yes
+
+	option = {
+		name = SER_cukur_fountain_incident.3 #idea of parlamentiarism.a
+		ai_chance = {
+			factor = 0
+		}
+		country_event = {
+			id = SER_cukur_fountain_incident.4 #serbian elite unites
+			days = 15
+		}
+	}
+}
+country_event = {
+	id = SER_cukur_fountain_incident.4 #serbian elite unites
+	title = SER_cukur_fountain_incident.4 #serbian elite unites.t
+	desc = SER_cukur_fountain_incident.4 #serbian elite unites.d
+	picture = lorem_ipsum
+
+		fire_only_once = yes
+
+		is_triggered_only = yes
+
+	option = {
+		name = SER_cukur_fountain_incident.4 #serbian elite unites.a
+		ai_chance = {
+			factor = 0
+		}
+		country_event = {
+			id = SER_cukur_fountain_incident.5 # second reign of milos obrenovic
+			days = 10
+		}
+	}
+}
+country_event = {
+	id = SER_cukur_fountain_incident.5 # second reign of milos obrenovic
+	title = SER_cukur_fountain_incident.5 # second reign of milos obrenovic.t
+	desc = SER_cukur_fountain_incident.5 # second reign of milos obrenovic.d
+	picture = lorem_ipsum
+
+		fire_only_once = yes
+
+		is_triggered_only = yes
+
+	option = {
+		name = SER_cukur_fountain_incident.5 # second reign of milos obrenovic.a
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+country_event = {
+	id = SER_cukur_fountain_incident.6 #turmoil forms in liberal formation
+	title = SER_cukur_fountain_incident.6 #turmoil forms in liberal formation.t
+	desc = SER_cukur_fountain_incident.6 #turmoil forms in liberal formation.d
+	picture = lorem_ipsum
+
+		fire_only_once = yes
+
+		is_triggered_only = yes
+
+	option = {
+		name = SER_cukur_fountain_incident.6 #turmoil forms in liberal formation.a
+		ai_chance = {
+			factor = 0
+		}
+		country_event = {
+			id = SER_cukur_fountain_incident.7 # liberal divides into seperate parts
+			days = 15
+		}
+	}
+}
+country_event = {
+	id = SER_cukur_fountain_incident.7 # liberal divides into seperate parts
+	title = SER_cukur_fountain_incident.7 # liberal divides into seperate parts.t
+	desc = SER_cukur_fountain_incident.7 # liberal divides into seperate parts.d
+	picture = lorem_ipsum
+
+		fire_only_once = yes
+
+		is_triggered_only = yes
+
+	option = {
+		name = SER_cukur_fountain_incident.7 # liberal divides into seperate parts.a
+		ai_chance = {
+			factor = 0
+		}
+		country_event = {
+			id = SER_cukur_fountain_incident.8 # karadjordjevic crushesh opposition
+			days = 5
+		}
+	}
+}
+country_event = {
+	id = SER_cukur_fountain_incident.8 # karadjordjevic crushesh opposition
+	title = SER_cukur_fountain_incident.8 # karadjordjevic crushesh opposition.t
+	desc = SER_cukur_fountain_incident.8 # karadjordjevic crushesh opposition.d
+	picture = lorem_ipsum
+
+		fire_only_once = yes
+
+		is_triggered_only = yes
+
+	option = {
+		name = SER_cukur_fountain_incident.8 # karadjordjevic crushesh opposition.a
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

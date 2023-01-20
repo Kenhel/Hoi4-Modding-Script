@@ -1,0 +1,61 @@
+i=1 # cukur fountain incident
+o=1
+p=0
+
+i=2	#conflict escalation
+o=2
+p=1a
+d=10
+
+i=3 #civlians arm themselves
+o=1
+p=2a
+d=5
+
+i=4 # truce signed
+o=1
+p=3a
+d=10
+
+i=5 # "special military operation"
+o=1
+p=1b
+d=30
+
+i=6 # belgrad being bombed TODO MAKE EVENT 5 FIRE THIS AS WELL
+o=1
+p=4a
+d=7
+
+i=7 # interior of serbia volunteers
+o=1
+p=6a
+d=30
+
+i=8 # proclamation of insert leader name here
+o=1
+p=0
+
+i=9 # demad turks to leave belgrad FIRE EVENT FOR OTTOMANS AND EVENT ONLY FIRE IF THE DECISIONS DECLARE BELGRAD UNDER STATE OF SIEGE AND FILIP HRISTIC TO ENGLISH COURT HAVE BEEN DONE
+o=2
+p=0
+
+i=10 # turkish withdrawal IGNORE THE WITHDRAW CIVILIAN OPTION
+o=1
+p=9a
+d=3
+
+i=11 # ask great power for help
+o=1
+p=9b
+d=3
+
+i=12 # great power help event set it so AUSTRIA, BRITAIN, FRANCE RUSSIA recives event
+o=1
+p=11a
+d=5
+
+i=13 # turkey is force to leave
+o=1
+p=12a
+d=20

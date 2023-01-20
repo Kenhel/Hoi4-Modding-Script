@@ -1,0 +1,38 @@
+i=1 #saint andrews day
+o=1
+p=0
+
+i=2 #alliance of the liberals
+o=2
+p=1a
+d=10
+
+i=3 #idea of parlamentiarism
+o=1
+p=2a
+d=5
+
+i=4 #serbian elite unites
+o=1
+p=3a
+d=15
+
+i=5 # second reign of milos obrenovic
+o=1
+p=4a
+d=10
+
+i=6 #turmoil forms in liberal formation
+o=1
+p=2b
+d=20
+
+i=7 # liberal divides into seperate parts
+o=1
+p=6a
+d=15
+
+i=8 # karadjordjevic crushesh opposition
+o=1
+p=7a
+d=5

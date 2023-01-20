@@ -1,0 +1,17 @@
+# made by https://github.com/Kenhel
+	SpriteType = {
+		name = "GFX_idea_RUS_state_of_navy"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_state_of_navy.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_state_of_army"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_state_of_army.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_political_isolation"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_political_isolation.png"
+	}
+	SpriteType = {
+		name = "GFX_idea_RUS_caucasian_war"
+		texturefile = "gfx/interface/ideas/RUS/idea_RUS_caucasian_war.png"
+	}
