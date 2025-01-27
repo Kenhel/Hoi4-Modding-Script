@@ -57,12 +57,12 @@ def generate_loc_output(prefix, events):
 	for event_name, option_amt in events:
 		capitalized_name = capitalize(event_name)
 
-		loc_lines.append(f"\t{prefix}.{event_id}.t:0 \"{capitalized_name}\"")
-		loc_lines.append(f"\t{prefix}.{event_id}.desc:0 \"REPLACE_ME\"")
+		loc_lines.append(f"\n {prefix}.{event_id}.t:0 \"{capitalized_name}\"")
+		loc_lines.append(f" {prefix}.{event_id}.desc:0 \"REPLACE_ME\"")
 
 		for i in range(option_amt):
 			option_letter = chr(ord('a') + i)  # 'a', 'b', 'c', ...
-			loc_lines.append(f"\t{prefix}.{event_id}.{option_letter}:0 \"OPTION {i + 1}\"")
+			loc_lines.append(f" {prefix}.{event_id}.{option_letter}:0 \"OPTION {i + 1}\"")
 
 		event_id += 1
 
