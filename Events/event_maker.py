@@ -12,7 +12,7 @@ loc_output = os.path.join(current_dir, 'loc_output.yml')
 event_output_path = os.path.join(current_dir, 'event_output.txt')
 
 # Read the input file and parse the data
-def read_input():
+def read_input(starting_id):
 	with open(file_path, 'r') as f:
 		lines = f.readlines()
 
@@ -50,9 +50,9 @@ def read_input():
 	return prefix, events
 
 # Generate the localization output (loc_output.yml)
-def generate_loc_output(prefix, events):
+def generate_loc_output(prefix, events, starting_id):
 	loc_lines = []
-	event_id = 1
+	event_id = starting_id
 
 	for event_name, option_amt in events:
 		capitalized_name = capitalize(event_name)
@@ -71,9 +71,9 @@ def generate_loc_output(prefix, events):
 	print(f"Localisation created: {loc_output}")
 
 # Generate the event output (event_output.txt)
-def generate_event_output(prefix, events):
+def generate_event_output(prefix, events, starting_id):
 	event_lines = []
-	event_id = 1
+	event_id = starting_id
 
 	for event_name, option_amt in events:
 		capitalized_name = capitalize(event_name)
@@ -100,9 +100,12 @@ def generate_event_output(prefix, events):
 
 # Main function to orchestrate the generation of output files
 def main():
-	prefix, events = read_input()
-	generate_loc_output(prefix, events)
-	generate_event_output(prefix, events)
+	# Allow the user to set the starting event ID (default to 1)
+	starting_id = int(input("Enter the starting event ID (default 1): ") or 1)
+
+	prefix, events = read_input(starting_id)
+	generate_loc_output(prefix, events, starting_id)
+	generate_event_output(prefix, events, starting_id)
 
 if __name__ == '__main__':
 	main()
