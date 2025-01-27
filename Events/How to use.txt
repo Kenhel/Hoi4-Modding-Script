@@ -1,5 +1,7 @@
 How to use
 
+create a txt file in the same folder as the python script named "input.txt"
+
 start the file with "prefix=", just put whatever prefix your events are using, which could be SPQ_pol_focus
 
 after that on the next line, start with the event name, it does not need to be capitalised, the script automatically does that for you,
