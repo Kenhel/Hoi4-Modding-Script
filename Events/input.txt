@@ -1,0 +1,12 @@
+prefix=prefix_event
+
+event no 848
+3
+lorem ipsum
+2
+placeholder name
+4
+test
+1
+implicit test
+event next

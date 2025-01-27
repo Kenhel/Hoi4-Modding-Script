@@ -1,0 +1,107 @@
+country_event = {
+	id = prefix_event.1 # Event No 848
+	title = "prefix_event.1.t"
+	desc = "prefix_event.1.desc"
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = prefix_event.1.a
+		
+	}
+	option = {
+		name = prefix_event.1.b
+		
+	}
+	option = {
+		name = prefix_event.1.c
+		
+	}
+}
+
+country_event = {
+	id = prefix_event.2 # Lorem Ipsum
+	title = "prefix_event.2.t"
+	desc = "prefix_event.2.desc"
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = prefix_event.2.a
+		
+	}
+	option = {
+		name = prefix_event.2.b
+		
+	}
+}
+
+country_event = {
+	id = prefix_event.3 # Placeholder Name
+	title = "prefix_event.3.t"
+	desc = "prefix_event.3.desc"
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = prefix_event.3.a
+		
+	}
+	option = {
+		name = prefix_event.3.b
+		
+	}
+	option = {
+		name = prefix_event.3.c
+		
+	}
+	option = {
+		name = prefix_event.3.d
+		
+	}
+}
+
+country_event = {
+	id = prefix_event.4 # Test
+	title = "prefix_event.4.t"
+	desc = "prefix_event.4.desc"
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = prefix_event.4.a
+		
+	}
+}
+
+country_event = {
+	id = prefix_event.5 # Implicit Test
+	title = "prefix_event.5.t"
+	desc = "prefix_event.5.desc"
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = prefix_event.5.a
+		
+	}
+}
+
+country_event = {
+	id = prefix_event.6 # Event Next
+	title = "prefix_event.6.t"
+	desc = "prefix_event.6.desc"
+	picture = GFX_
+
+	is_triggered_only = yes
+
+	option = {
+		name = prefix_event.6.a
+		
+	}
+}

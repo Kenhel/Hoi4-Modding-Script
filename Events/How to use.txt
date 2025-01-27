@@ -1,0 +1,9 @@
+How to use
+
+start the file with "prefix=", just put whatever prefix your events are using, which could be SPQ_pol_focus
+
+after that on the next line, start with the event name, it does not need to be capitalised, the script automatically does that for you,
+
+add the amount of options the event has in next line, see the sample_input.txt as reference
+
+there is also implicit option amount, basically using the sample_input.txt as reference, you can see the last 2 lines without any option number. In this case, the script will assume the amount of options to be 1
